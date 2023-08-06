@@ -1,8 +1,3 @@
----
-cover: .gitbook/assets/Twitter header - 1 (1).png
-coverY: 46.779987171263635
----
-
 # 👋 Welcome to the deNodes Hub!
 
 {% hint style="info" %}
