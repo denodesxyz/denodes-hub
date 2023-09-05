@@ -12,6 +12,6 @@ Here, you can find information about the project's overview, architecture, backe
 
 ### Table of Contents
 
-* Project Overview
-* Node Setup Guide
-* FAQ: Most Frequently Asked Questions
+* [<mark style="color:purple;">Project Overview</mark>](project-overview.md)
+* [<mark style="color:blue;">Node Setup Guide</mark>](node-setup-guide.md)
+* [<mark style="color:orange;">FAQ: Most Frequently Asked Questions</mark>](faq-most-frequently-asked-questions.md)
