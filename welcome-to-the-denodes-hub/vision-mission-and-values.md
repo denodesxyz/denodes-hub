@@ -8,7 +8,7 @@
 
 <details>
 
-<summary>🚀 Integrity</summary>
+<summary>Integrity</summary>
 
 
 
@@ -16,7 +16,7 @@
 
 <details>
 
-<summary>✊ Diligence</summary>
+<summary>Diligence</summary>
 
 
 
@@ -24,7 +24,7 @@
 
 <details>
 
-<summary>💪 Accountability</summary>
+<summary>Accountability</summary>
 
 
 
