@@ -1,3 +1,7 @@
+---
+description: 'Namada Network: Node Setup Guide'
+---
+
 # Node Setup Guide
 
 {% hint style="info" %}
