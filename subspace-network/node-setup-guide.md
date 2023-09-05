@@ -20,13 +20,13 @@ We recommend the following minimum hardware requirements for running the Subspac
 1. Run the following command:
 
 ```
-wget -O subspace.sh https://github.com/denodesxyz/denodes-hub/raw/hub/scripts/subspace.sh && chmod +x subspace.sh && ./subspace.sh
+wget -O subspace.sh https://raw.github.com/denodesxyz/denodes-hub/hub/scripts/subspace.sh && chmod +x subspace.sh && ./subspace.sh
 ```
 
 If the message "Illegal Instruction" appears during installation. It means that the processor is not compatible with this version. You can try adding the "v2" parameter and installing the version for older processors:
 
 ```
-wget -O subspace.sh https://github.com/denodesxyz/denodes-hub/raw/hub/scripts/subspace.sh && chmod +x subspace.sh && ./subspace.sh v2
+wget -O subspace.sh https://raw.github.com/denodesxyz/denodes-hub/hub/scripts/subspace.sh && chmod +x subspace.sh && ./subspace.sh v2
 ```
 
 During the installation process, several parameters will be requested, the most important of which are the wallet address, the node name and the volume of the disk allocated for the plot.
@@ -38,7 +38,7 @@ During the installation process, several parameters will be requested, the most 
 3. Your subspace wallet address:
 
 * Enter the address that can be taken [here](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-0.gemini-3e.subspace.network%2Fws#/accounts), or
-* Install recommended wallet [Subwallet](https://docs.subspace.network/docs/protocol/wallets/subwallet)&#x20;
+* Install recommended wallet [Subwallet](https://docs.subspace.network/docs/protocol/wallets/subwallet)
 
 <figure><img src="https://github.com/denodesxyz/denodes-hub/assets/139079136/9d4d4602-3bfd-4904-ad67-7bece619fa43" alt=""><figcaption></figcaption></figure>
 
@@ -46,15 +46,15 @@ During the installation process, several parameters will be requested, the most 
 
 <figure><img src="https://github.com/denodesxyz/denodes-hub/assets/139079136/9b0706c0-0d3d-4b2a-a785-aff539d3512c" alt=""><figcaption></figcaption></figure>
 
-5. Specify the paths for storing the plot and the node data (you can leave the default values):&#x20;
+5. Specify the paths for storing the plot and the node data (you can leave the default values):
 
 <figure><img src="https://github.com/denodesxyz/denodes-hub/assets/139079136/dfa79cd4-f47b-41a1-9eb8-b140a9d59ffb" alt=""><figcaption></figcaption></figure>
 
-6. Specify the size of the plot:&#x20;
+6. Specify the size of the plot:
 
 <figure><img src="https://github.com/denodesxyz/denodes-hub/assets/139079136/0d079655-3772-4982-991d-69ff877ba150" alt=""><figcaption></figcaption></figure>
 
-7. Leave the default value when selecting the chain:&#x20;
+7. Leave the default value when selecting the chain:
 
 <figure><img src="https://github.com/denodesxyz/denodes-hub/assets/139079136/e3245227-2d4d-4a18-a5d3-5a05dee8ca36" alt=""><figcaption></figcaption></figure>
 
@@ -70,9 +70,9 @@ To view logs, use the following command:
 journalctl -f -u subspace-node -o cat
 ```
 
-In addition to logs, you can find your node in telemetry. Keep in mind that with a large number of farmers, there is a chance that even a successfully working node will not be seen in telemetry immediately.&#x20;
+In addition to logs, you can find your node in telemetry. Keep in mind that with a large number of farmers, there is a chance that even a successfully working node will not be seen in telemetry immediately.
 
-{% embed url="https://telemetry.subspace.network/#list/0xa3cd4b592d93f79943fbc58fc90ca8f516106699c9cf4d7ada98ca22877bc1ae" %}
+[Subspace Telemetry](https://telemetry.subspace.network/#list/0x92e91e657747c41eeabed5129ff51689d2e935b9f6abfbd5dfcb2e1d0d035095)
 
 {% hint style="info" %}
 To search, simply start typing the Node Name. Click on the row with the node to pin it to the top of the list.
