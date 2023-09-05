@@ -12,7 +12,7 @@ Welcome to our guide on setting up your node and participating in the Gemini3, S
 
 We recommend the following minimum hardware requirements for running the Subspace Node:
 
-* Machine: **8 GB RAM,** **6 Cores, 500 SSD**
+* Machine: **8 GB+ RAM,** **CPU 4 Core+, 100GB SSD**
 * OS: **Ubuntu Linux 20.04 (LTS)**
 
 ## Setting up a Subspace Node
