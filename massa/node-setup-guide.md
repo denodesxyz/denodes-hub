@@ -4,9 +4,9 @@ description: 'Massa Network: Node Setup Guide'
 
 # Node Setup Guide
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Massa Guide.png" alt=""><figcaption></figcaption></figure>
 
-Welcome to our guide on setting up your node and participating in the Testnet Episode 25, Massa Incentivized Testnet. Follow these step-by-step instructions to get started.
+Welcome to our guide on setting up your node and participating in the Testnet Episode 26, Massa Incentivized Testnet. Follow these step-by-step instructions to get started.
 
 ### Hardware Requirements <a href="#hardware-requirements" id="hardware-requirements"></a>
 

@@ -4,11 +4,11 @@ description: Overview of the Massa Network
 
 # Project Overview
 
-### Welcome to the Overview of Massa Network!
+<figure><img src="../.gitbook/assets/Massa Overview.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+### Welcome to the Overview of Massa Network!&#x20;
 
-> Here, you will find detailed information about the Massa's architecture, team and backers, resources, and testnet. Let's explore each of these aspects in more details.
+You will discover detailed information about Massa's architecture, team and backers, resources, and testnet. Let's explore each of these aspects in more detail.
 
 ## Introduction
 

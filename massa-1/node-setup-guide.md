@@ -4,6 +4,8 @@ description: 'Shardeum: Node Setup Guide'
 
 # Node Setup Guide
 
+<figure><img src="../.gitbook/assets/Massa Guide-1.png" alt=""><figcaption></figcaption></figure>
+
 Welcome to our guide on setting up your node and participating in the Shardeum testnet. Follow these step-by-step instructions to get started.
 
 ### Hardware Requirements <a href="#hardware-requirements" id="hardware-requirements"></a>

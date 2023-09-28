@@ -6,7 +6,7 @@ description: >-
 
 # ⚪ Shardeum
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-09-04 at 19.43.32.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Twitter header - 5.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Here, you can find information about the project's overview, architecture, backers and team, testnet, and resources.
