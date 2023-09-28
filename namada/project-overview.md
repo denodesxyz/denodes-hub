@@ -6,7 +6,7 @@ description: Overview of the Namada Network
 
 ### Welcome to the Overview of Namada Network!
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Twitter header - 8.png" alt=""><figcaption></figcaption></figure>
 
 > Here, you will find detailed information about the Namada architecture, team and backers, resources, and testnet. Let's explore each of these aspects in more details.
 

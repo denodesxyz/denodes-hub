@@ -1,9 +1,8 @@
 # Table of contents
 
 * [👋 Welcome to the deNodes Hub!](README.md)
-  * [Vision, Mission and Values](welcome-to-the-denodes-hub/vision-mission-and-values.md)
-  * [Open-source Contributing](welcome-to-the-denodes-hub/open-source-contributing.md)
-  * [Our contributions](welcome-to-the-denodes-hub/our-contributions.md)
+  * [deNodes Team](readme/denodes-team.md)
+  * [Database of Early-Stage Projects](welcome-to-the-denodes-hub/our-contributions.md)
 * [⚪ Namada](namada/README.md)
   * [Project Overview](namada/project-overview.md)
   * [Node Setup Guide](namada/node-setup-guide.md)

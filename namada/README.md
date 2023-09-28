@@ -6,6 +6,8 @@ description: >-
 
 # ⚪ Namada
 
+<figure><img src="../.gitbook/assets/Twitter header - 1.png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="info" %}
 Here, you can find information about the project's overview, architecture, backers and team, testnet, and resources.
 {% endhint %}
