@@ -4,9 +4,9 @@ description: >-
   network
 ---
 
-# ⚪ Avail
+# ⚪ Dymension
 
-<figure><img src="../.gitbook/assets/Avail.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Dymension.png" alt=""><figcaption></figcaption></figure>
 
 ### Table of Contents
 

@@ -1,8 +1,7 @@
 # Project Overview
 
-{% hint style="info" %}
-In this blog post, we will provide an overview of Massa Network, its architecture, investments, resources, and testnet.
-{% endhint %}
+<figure><img src="../.gitbook/assets/Sub Overview (1).png" alt=""><figcaption></figcaption></figure>
 
-**Massa Network** is a new blockchain project that aims to provide a more decentralized and scalable network with high throughput. It is designed to support up to 10,000 transactions per second using autonomous smart contracts and runs on the Proof-of-Stake consensus algorithm.&#x20;
+### Welcome to the Overview of Subspace Network!&#x20;
 
+You will discover detailed information about Subspace's architecture, team and backers, resources, and testnet. Let's explore each of these aspects in more detail.

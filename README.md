@@ -4,7 +4,7 @@
 
 ### At deNodes, we believe in the power of knowledge
 
-That's why we created the deNodes Hub, a comprehensive educational platform that provides research, guides, and tutorials on various early-stage blockchain and web3 projects.
+That's why we created the [deNodes Hub](https://hub.denodes.xyz/), a comprehensive educational platform that provides research, guides, and tutorials on various early-stage blockchain and web3 projects.
 
 Whether you want to understand the basics of blockchain technology or need assistance in joining the network and running a node with detailed instructions, our educational materials are carefully designed to equip you with the necessary knowledge to confidently navigate the blockchain landscape.
 

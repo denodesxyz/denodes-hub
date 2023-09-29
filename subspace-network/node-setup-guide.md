@@ -4,7 +4,7 @@ description: 'Subspace Network: Node Setup Guide'
 
 # Node Setup Guide
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-09-04 at 22.09.43.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Sub Guide.png" alt=""><figcaption></figcaption></figure>
 
 Welcome to our guide on setting up your node and participating in the Gemini3, Subspace Incentivized Testnet. Follow these step-by-step instructions to get started.
 

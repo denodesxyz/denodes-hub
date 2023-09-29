@@ -6,7 +6,7 @@ description: >-
 
 # ⚪ Massa
 
-<figure><img src="../.gitbook/assets/Twitter header - 6 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Massa.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Here, you can find information about the project's overview, architecture, backers and team, testnet, and resources.

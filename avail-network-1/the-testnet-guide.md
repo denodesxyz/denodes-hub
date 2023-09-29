@@ -1,19 +1,19 @@
 ---
-description: 'Gear Protocol: Node Setup Guide'
+description: 'Avail Protocol: Node Setup Guide'
 ---
 
 # Node Setup Guide
 
-Welcome to our guide on setting up your node and participating in the Gear non-incentivized testnet. Follow these step-by-step instructions to get started.
+Welcome to our guide on setting up your node and participating in the Avail protocol testnet. Follow these step-by-step instructions to get started.
 
 ### Hardware Requirements <a href="#hardware-requirements" id="hardware-requirements"></a>
 
-We recommend the following minimum hardware requirements for running the Gear Node:
+We recommend the following minimum hardware requirements for running the Avail Node:
 
 * Machine: **8 GB RAM,** **6 Cores, 500 SSD**
 * OS: **Ubuntu Linux 20.04 (LTS)**
 
-## Setting up a Gear Node
+## Setting up a Avail Node
 
 1. Run the following command:
 
