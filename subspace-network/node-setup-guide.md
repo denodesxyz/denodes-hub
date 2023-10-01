@@ -1,5 +1,5 @@
 ---
-description: 'Subspace Network: Node Setup Guide'
+description: 'Subspace: Node Setup Guide'
 ---
 
 # Node Setup Guide

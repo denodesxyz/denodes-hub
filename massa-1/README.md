@@ -1,20 +1,15 @@
 ---
-description: >-
-  This page is dedicated to providing detailed information about the Shardeum
-  network
+description: 'deNodes Hub: Shardeum'
 ---
 
 # ⚪ Shardeum
 
 <figure><img src="../.gitbook/assets/Shardeum.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-Here, you can find information about the project's overview, architecture, backers and team, testnet, and resources.
-{% endhint %}
+[Shardeum](http://shardeum.org/) is a EVM-compatible blockchain platform specifically designed for developing smart contracts. It stands out by offering low gas fees, full decentralization, and robust data protection through dynamic partitioning.
 
 ### Table of Contents
 
 * Project Overview
 * Node Setup Guide
 * FAQ: Most Frequently Asked Questions
-

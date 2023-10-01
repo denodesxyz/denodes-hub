@@ -1,16 +1,12 @@
 ---
-description: >-
-  This page is dedicated to providing detailed information about the Namada
-  network
+description: 'deNodes Hub: Namada'
 ---
 
 # ⚪ Namada
 
 <figure><img src="../.gitbook/assets/Namada.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-Here, you can find information about the project's overview, architecture, backers and team, testnet, and resources.
-{% endhint %}
+[<mark style="color:blue;">Namada</mark>](https://namada.net/) is a proof-of-stake blockchain with interchain asset-agnostic privacy. It interoperates with fast-finality chains via IBC and with Ethereum through a trustless bridge.
 
 ### Table of Contents
 

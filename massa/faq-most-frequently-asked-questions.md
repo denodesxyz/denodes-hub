@@ -1,3 +1,7 @@
+---
+description: 'Massa: Most Frequently Asked Questions'
+---
+
 # FAQ: Most Frequently Asked Questions
 
 <figure><img src="../.gitbook/assets/Massa FAQ.png" alt=""><figcaption></figcaption></figure>

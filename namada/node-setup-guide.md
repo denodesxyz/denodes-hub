@@ -1,5 +1,5 @@
 ---
-description: 'Namada Network: Node Setup Guide'
+description: 'Namada: Node Setup Guide'
 ---
 
 # Node Setup Guide
@@ -15,7 +15,7 @@ We recommend the following minimum hardware requirements for running the Namada 
 * Machine: **8 GB RAM,** **6 Cores, 500 SSD**
 * OS: **Ubuntu Linux 20.04 (LTS)**
 
-## Setting up a Namada Node
+## Setting up a Namada node
 
 1. Run the following command:
 

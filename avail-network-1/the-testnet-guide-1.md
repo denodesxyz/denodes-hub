@@ -1,8 +1,8 @@
 ---
-description: 'Dymension: Node Setup Guide'
+description: 'Dymension: Roller Setup Guide'
 ---
 
-# Node Setup Guide
+# Roller Setup Guide
 
 Welcome to our guide on setting up your node and participating in the Dymension protocol testnet. Follow these step-by-step instructions to get started.
 

@@ -1,16 +1,12 @@
 ---
-description: >-
-  This page is dedicated to providing detailed information about the Massa
-  network
+description: 'deNodes Hub: Massa'
 ---
 
 # ⚪ Massa
 
 <figure><img src="../.gitbook/assets/Massa.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-Here, you can find information about the project's overview, architecture, backers and team, testnet, and resources.
-{% endhint %}
+[Massa Network](https://massa.net/) is a new blockchain project that aims to provide a more decentralized and scalable network with high throughput. It is [designed](https://massa.net/technology) to support up to 10,000 transactions per second using autonomous smart contracts and runs on the Proof-of-Stake consensus algorithm.&#x20;
 
 ### Table of Contents
 

@@ -1,5 +1,5 @@
 ---
-description: 'Massa Network: Node Setup Guide'
+description: 'Massa: Node Setup Guide'
 ---
 
 # Node Setup Guide
@@ -7,6 +7,10 @@ description: 'Massa Network: Node Setup Guide'
 <figure><img src="../.gitbook/assets/Massa Guide.png" alt=""><figcaption></figcaption></figure>
 
 Welcome to our guide on setting up your node and participating in the Testnet Episode 26, Massa Incentivized Testnet. Follow these step-by-step instructions to get started.
+
+{% hint style="warning" %}
+**Please note**: Massa's Incentivized Testnet ended in September 2023.
+{% endhint %}
 
 ### Hardware Requirements <a href="#hardware-requirements" id="hardware-requirements"></a>
 

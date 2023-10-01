@@ -1,22 +1,16 @@
 ---
-description: Overview of the Massa Network
+description: 'Massa: Overview'
 ---
 
 # Project Overview
 
 <figure><img src="../.gitbook/assets/Massa Overview.png" alt=""><figcaption></figcaption></figure>
 
-### Welcome to the Overview of Massa Network!&#x20;
+Welcome to this research, where you will find detailed information about the Massa architecture, team, and backers, resources, and testnet. In the following sections, we will explore each of these aspects in more detail, providing you with a comprehensive understanding of the project.
 
-You will discover detailed information about Massa's architecture, team and backers, resources, and testnet. Let's explore each of these aspects in more detail.
+## What is Massa Network
 
-## Introduction
-
-The contemporary landscape of the internet, finance, and governance systems is marked by a concerning concentration of power, leading to transparency issues, lack of accountability, manipulation, conflicts of interest, and vulnerability to single points of failure. In response to these challenges, [Massa Network](https://massa.net/) emerges as a beacon of decentralization and innovation.
-
-## What is Massa Network?
-
-[**Massa Network**](https://massa.net/) is a new blockchain project that aims to provide a more decentralized and scalable network with high throughput. It is [designed](https://massa.net/technology) to support up to 10,000 transactions per second using autonomous smart contracts and runs on the Proof-of-Stake consensus algorithm.&#x20;
+[Massa Network](https://massa.net/) is a new blockchain project that aims to provide a more decentralized and scalable network with high throughput. It is [designed](https://massa.net/technology) to support up to 10,000 transactions per second using autonomous smart contracts and runs on the Proof-of-Stake consensus algorithm.&#x20;
 
 Massa Network represents a [transformative approach](https://massa.net/vision) to blockchain technology, prioritizing the interests of its users. Rooted in the principles of transparency and security, Massa Network aims to reshape the dynamics of decentralized networks. It distinguishes itself as the [first truly decentralized blockchain](https://massalabs.medium.com/decentralization-is-non-negotiable-f9b180e05a04), designed to empower its community while delivering top-tier performance and security. One standout feature is its Nakamoto coefficient, surpassing 1,000, signifying a robust [distribution of power](https://twitter.com/MassaLabs/status/1686305919972306945).
 
@@ -59,8 +53,6 @@ Here are official resources related to the [Massa network](https://massa.net/) t
 * [<mark style="color:blue;">Medium</mark>](https://massalabs.medium.com/)
 * [<mark style="color:blue;">Docs</mark>](https://docs.massa.net/docs/build/home)
 
-
-
 ***
 
-_**Powered by**_ [_**deNodes**_](https://twitter.com/deNodes\_)
+_Powered by_ [_deNodes_](https://twitter.com/deNodes\_)

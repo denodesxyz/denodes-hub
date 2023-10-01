@@ -1,16 +1,12 @@
 ---
-description: >-
-  This page is dedicated to providing detailed information about the Subspace
-  network
+description: 'deNodes Hub: Subspace'
 ---
 
 # ⚪ Subspace
 
 <figure><img src="../.gitbook/assets/Subspace.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-Here, you can find information about the project's overview, architecture, backers and team, testnet, and resources.
-{% endhint %}
+
 
 ### Table of Contents
 
