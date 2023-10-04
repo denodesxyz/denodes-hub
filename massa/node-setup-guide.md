@@ -28,10 +28,12 @@ wget -q -O massa.sh https://raw.githubusercontent.com/bombermine3/massa/main/mas
 ```
 
 After installing the node, watch the logs and wait for synchronization:
+
 ```
 journalctl -u massa-node -f -o cat
 ```
-Next, you need to create a wallet and register a node in Discord.
+
+Next, you need to [create a wallet](node-setup-guide.md#creating-a-wallet) and [register the node in Discord](node-setup-guide.md#registering-the-node-in-discord).
 
 ## Creating a wallet
 
@@ -47,6 +49,7 @@ massa_client wallet_info
 ```
 
 Enable staking for the address. To do this, copy the address and substitute it into the command:
+
 ```
 massa_client node_start_staking Address
 ```
@@ -54,27 +57,29 @@ massa_client node_start_staking Address
 Go to Discord to get test tokens
 
 Checking the balance:
+
 ```
 massa_client wallet_info
 ```
 
 After tokens have appeared on the balance, buy one ROLL, replacing the Address parameter with your own:
+
 ```
 massa_client buy_rolls Address 1 0
 ```
 
 ## Registering the node in Discord
 
-To register a node in the Incentivized program, you need to go to the #testnet-rewards-registration channel and click on the "👍🏻" emoji.
-![image](https://github.com/denodesxyz/denodes-hub/assets/139079136/e51d35b7-a8d8-4d8e-962a-cf5238d3c0d9)
+To register a node in the Incentivized program, you need to go to the #testnet-rewards-registration channel and click on the "👍🏻" emoji. ![image](https://github.com/denodesxyz/denodes-hub/assets/139079136/e51d35b7-a8d8-4d8e-962a-cf5238d3c0d9)
 
-Next, we receive a private message from MassaBot, send in reply the IP address of your server.
-![image](https://github.com/denodesxyz/denodes-hub/assets/139079136/fded2d29-faee-4a6b-9130-eaf4514d9757)
+Next, we receive a private message from MassaBot, send in reply the IP address of your server. ![image](https://github.com/denodesxyz/denodes-hub/assets/139079136/fded2d29-faee-4a6b-9130-eaf4514d9757)
 
 Next, go to the terminal and paste the command (replacing the values):
+
 ```
 massa_client node_testnet_rewards_program_ownership_proof Address Yor_Discord_ID
 ```
+
 The output of the command needs to be sent back to the bot in Discord.
 
 ## Node Monitoring
@@ -96,7 +101,8 @@ tar -xvf $HOME/massa.tar.gz
 rm -rf $HOME/massa.tar.gz
 systemctl start massa-node
 ```
-Then we re-enable staking for an address, buy ROLL, and register the node in Discord.
+
+Then we [re-enable staking](node-setup-guide.md#creating-a-wallet) for an address, buy ROLL, and [register the node in Discord](node-setup-guide.md#registering-the-node-in-discord).
 
 ## Useful Commands
 
