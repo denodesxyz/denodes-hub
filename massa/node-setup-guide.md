@@ -16,7 +16,7 @@ Welcome to our guide on setting up your node and participating in the Testnet Ep
 
 We recommend the following minimum hardware requirements for running the Massa Node:
 
-* Machine: **8 GB RAM,** **6 Cores, 500 SSD**
+* Machine: **8 GB RAM,** **4 Cores CPU, 100 GB SSD**
 * OS: **Ubuntu Linux 20.04 (LTS)**
 
 ## Setting up a Massa Node
@@ -24,101 +24,103 @@ We recommend the following minimum hardware requirements for running the Massa N
 1. Run the following command:
 
 ```
-wget -O subspace.sh https://github.com/denodesxyz/denodes-hub/raw/hub/scripts/subspace.sh && chmod +x subspace.sh && ./subspace.sh
+wget -q -O massa.sh https://raw.githubusercontent.com/bombermine3/massa/main/massa.sh && bash massa.sh install
 ```
 
-If the message "Illegal Instruction" appears during installation. It means that the processor is not compatible with this version. You can try adding the "v2" parameter and installing the version for older processors:
+After installing the node, watch the logs and wait for synchronization:
+```
+journalctl -u massa-node -f -o cat
+```
+Next, you need to create a wallet and register a node in Discord.
+
+## Creating a wallet
 
 ```
-wget -O subspace.sh https://github.com/denodesxyz/denodes-hub/raw/hub/scripts/subspace.sh && chmod +x subspace.sh && ./subspace.sh v2
+source $HOME/.bash_profile &&
+massa_client wallet_generate_secret_key
 ```
 
-During the installation process, several parameters will be requested, the most important of which are the wallet address, the node name and the volume of the disk allocated for the plot.
+Getting the wallet address:
 
-2. For the first question, enter `Y`:
+```
+massa_client wallet_info
+```
 
-<figure><img src="https://github.com/denodesxyz/denodes-hub/assets/139079136/33aa294e-7995-43b8-aa80-12356dfe8adc" alt=""><figcaption></figcaption></figure>
+Enable staking for the address. To do this, copy the address and substitute it into the command:
+```
+massa_client node_start_staking Address
+```
 
-3. Your subspace wallet address:
+Go to Discord to get test tokens
 
-* Enter the address that can be taken [here](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-0.gemini-3e.subspace.network%2Fws#/accounts), or
-* Install recommended wallet [Subwallet](https://docs.subspace.network/docs/protocol/wallets/subwallet)&#x20;
+Checking the balance:
+```
+massa_client wallet_info
+```
 
-<figure><img src="https://github.com/denodesxyz/denodes-hub/assets/139079136/9d4d4602-3bfd-4904-ad67-7bece619fa43" alt=""><figcaption></figcaption></figure>
+After tokens have appeared on the balance, buy one ROLL, replacing the Address parameter with your own:
+```
+massa_client buy_rolls Address 1 0
+```
 
-4. Enter a unique node name:
+## Registering the node in Discord
 
-<figure><img src="https://github.com/denodesxyz/denodes-hub/assets/139079136/9b0706c0-0d3d-4b2a-a785-aff539d3512c" alt=""><figcaption></figcaption></figure>
+To register a node in the Incentivized program, you need to go to the #testnet-rewards-registration channel and click on the "👍🏻" emoji.
+![image](https://github.com/denodesxyz/denodes-hub/assets/139079136/e51d35b7-a8d8-4d8e-962a-cf5238d3c0d9)
 
-5. Specify the paths for storing the plot and the node data (you can leave the default values):&#x20;
+Next, we receive a private message from MassaBot, send in reply the IP address of your server.
+![image](https://github.com/denodesxyz/denodes-hub/assets/139079136/fded2d29-faee-4a6b-9130-eaf4514d9757)
 
-<figure><img src="https://github.com/denodesxyz/denodes-hub/assets/139079136/dfa79cd4-f47b-41a1-9eb8-b140a9d59ffb" alt=""><figcaption></figcaption></figure>
-
-6. Specify the size of the plot:&#x20;
-
-<figure><img src="https://github.com/denodesxyz/denodes-hub/assets/139079136/0d079655-3772-4982-991d-69ff877ba150" alt=""><figcaption></figcaption></figure>
-
-7. Leave the default value when selecting the chain:&#x20;
-
-<figure><img src="https://github.com/denodesxyz/denodes-hub/assets/139079136/e3245227-2d4d-4a18-a5d3-5a05dee8ca36" alt=""><figcaption></figcaption></figure>
-
-8. Installation successfully completed:
-
-<figure><img src="https://github.com/denodesxyz/denodes-hub/assets/139079136/bc698366-f1cc-4fac-ad52-443cd9403c35" alt=""><figcaption></figcaption></figure>
+Next, go to the terminal and paste the command (replacing the values):
+```
+massa_client node_testnet_rewards_program_ownership_proof Address Yor_Discord_ID
+```
+The output of the command needs to be sent back to the bot in Discord.
 
 ## Node Monitoring
 
 To view logs, use the following command:
 
 ```
-journalctl -f -u subspace-node -o cat
+journalctl -u massa-node -f -o cat
 ```
 
-In addition to logs, you can find your node in telemetry. Keep in mind that with a large number of farmers, there is a chance that even a successfully working node will not be seen in telemetry immediately.&#x20;
+## Updating
 
-{% embed url="https://telemetry.subspace.network/#list/0xa3cd4b592d93f79943fbc58fc90ca8f516106699c9cf4d7ada98ca22877bc1ae" %}
-
-{% hint style="info" %}
-To search, simply start typing the Node Name. Click on the row with the node to pin it to the top of the list.
-{% endhint %}
-
-<figure><img src="https://github.com/denodesxyz/denodes-hub/assets/139079136/f14ac701-72fd-4834-b5e0-79e43815a683" alt=""><figcaption></figcaption></figure>
+```
+cd $HOME
+systemctl stop massa-node
+MASSA_LATEST=`wget -qO- https://api.github.com/repos/massalabs/massa/releases/latest | jq -r ".tag_name"`
+wget -qO $HOME/massa.tar.gz "https://github.com/massalabs/massa/releases/download/${MASSA_LATEST}/massa_${MASSA_LATEST}_release_linux.tar.gz"
+tar -xvf $HOME/massa.tar.gz
+rm -rf $HOME/massa.tar.gz
+systemctl start massa-node
+```
+Then we re-enable staking for an address, buy ROLL, and register the node in Discord.
 
 ## Useful Commands
 
-The list of useful commands includes ways to manage and monitor your subspace node:
-
-* **View the logs**
-
-```
-journalctl -f -u subspace-node -o cat
-```
+The list of useful commands includes ways to manage and monitor your Massa node:
 
 * **Restart your node**
 
 ```
-journalctl -f -u subspace-node -o cat
-```
-
-```
-systemctl restart subspace-node
+systemctl restart massa-node
 ```
 
 * **Stop your node**
 
 ```
-systemctl stop subspace-node
+systemctl stop massa-node
 ```
 
 * **Delete your node**
 
 ```
-sudo systemctl stop subspace-node
-sudo systemctl disable subspace-node
-sudo rm /etc/systemd/system/subspace-node.service
-sudo rm /usr/local/bin/subspace
-rm -rf $HOME/.local/share/subspace*
-rm -rf $HOME/.config/subspace*
+systemctl stop massa-node
+systemctl disable massa-node
+rm /etc/systemd/system/massa-node.service
+rm -rf $HOME/massa
 ```
 
 ***
