@@ -70,9 +70,13 @@ massa_client buy_rolls Address 1 0
 
 ## Registering the node in Discord
 
-To register a node in the Incentivized program, you need to go to the #testnet-rewards-registration channel and click on the "👍🏻" emoji. ![image](https://github.com/denodesxyz/denodes-hub/assets/139079136/e51d35b7-a8d8-4d8e-962a-cf5238d3c0d9)
+To register a node in the Incentivized program, you need to go to the #testnet-rewards-registration channel and click on the "👍🏻" emoji.&#x20;
 
-Next, we receive a private message from MassaBot, send in reply the IP address of your server. ![image](https://github.com/denodesxyz/denodes-hub/assets/139079136/fded2d29-faee-4a6b-9130-eaf4514d9757)
+<figure><img src="../.gitbook/assets/Massa-Discord1.png" alt=""><figcaption></figcaption></figure>
+
+Next, we receive a private message from MassaBot, send in reply the IP address of your server.&#x20;
+
+<figure><img src="../.gitbook/assets/Massa-Discord2.png" alt=""><figcaption></figcaption></figure>
 
 Next, go to the terminal and paste the command (replacing the values):
 
