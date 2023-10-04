@@ -106,7 +106,7 @@ Then we [re-enable staking](node-setup-guide.md#creating-a-wallet) for an addres
 
 ## Useful Commands
 
-The list of useful commands includes ways to manage and monitor your Massa node:
+The list of useful commands includes ways to manage your Massa node:
 
 * **Restart your node**
 
