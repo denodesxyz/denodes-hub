@@ -4,6 +4,8 @@ description: 'Dymension: Roller Setup Guide'
 
 # Roller Setup Guide
 
+<figure><img src="../.gitbook/assets/Sub Roller.png" alt=""><figcaption></figcaption></figure>
+
 Welcome to our guide on setting up your node and participating in the Dymension protocol testnet. Follow these step-by-step instructions to get started.
 
 ### Hardware Requirements <a href="#hardware-requirements" id="hardware-requirements"></a>
@@ -117,4 +119,4 @@ rm -rf $HOME/.config/subspace*
 
 ***
 
-_**Powered by**_ [_**deNodes**_](https://twitter.com/deNodes\_)
+_Powered by_ [_deNodes_](https://twitter.com/deNodes\_)

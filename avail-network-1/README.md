@@ -6,9 +6,11 @@ description: 'deNodes Hub: Dymension'
 
 <figure><img src="../.gitbook/assets/Dymension.png" alt=""><figcaption></figcaption></figure>
 
+[<mark style="color:blue;">Dymension</mark>](https://dymension.xyz/) is a network comprised of modular blockchains known as RollApps.
+
 ### Table of Contents
 
-* Project Overview
-* Node Setup Guide
-* FAQ: Most Frequently Asked Questions
-
+* [<mark style="color:blue;">Project Overview</mark>](overview.md)
+* [<mark style="color:blue;">Roller Setup Guide</mark>](the-testnet-guide-1.md)
+* [<mark style="color:blue;">Node Setup Guide</mark>](the-testnet-guide.md)
+* [<mark style="color:blue;">FAQ: Most Frequently Asked Questions</mark>](faq-avail.md)

@@ -24,6 +24,6 @@
   * [FAQ: Most Frequently Asked Questions](massa/faq-most-frequently-asked-questions.md)
 * [⚪ Dymension](avail-network-1/README.md)
   * [Project Overview](avail-network-1/overview.md)
-  * [Node Setup Guide](avail-network-1/the-testnet-guide.md)
   * [Roller Setup Guide](avail-network-1/the-testnet-guide-1.md)
+  * [Node Setup Guide](avail-network-1/the-testnet-guide.md)
   * [FAQ: Most Frequently Asked Questions](avail-network-1/faq-avail.md)
