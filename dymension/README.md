@@ -11,6 +11,6 @@ description: 'deNodes Hub: Dymension'
 ### Table of Contents
 
 * [<mark style="color:blue;">Project Overview</mark>](overview.md)
-* [<mark style="color:blue;">Roller Setup Guide</mark>](the-testnet-guide-1.md)
-* [<mark style="color:blue;">Node Setup Guide</mark>](the-testnet-guide.md)
-* [<mark style="color:blue;">FAQ: Most Frequently Asked Questions</mark>](faq-avail.md)
+* [<mark style="color:blue;">Roller Setup Guide</mark>](the-roller-guide.md)
+* [<mark style="color:blue;">Node Setup Guide</mark>](the-node-guide.md)
+* [<mark style="color:blue;">FAQ: Most Frequently Asked Questions</mark>](faq.md)

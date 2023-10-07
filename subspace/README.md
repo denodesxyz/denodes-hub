@@ -10,6 +10,6 @@ description: 'deNodes Hub: Subspace'
 
 ### Table of Contents
 
-* [Project Overview](project-overview.md)
-* [Node Setup Guide](node-setup-guide.md)
-* [FAQ: Most Frequently Asked Questions](faq-most-frequently-asked-questions.md)
+* [Project Overview](overview.md)
+* [Node Setup Guide](the-node-guide.md)
+* [FAQ: Most Frequently Asked Questions](faq.md)

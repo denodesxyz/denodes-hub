@@ -33,7 +33,7 @@ After installing the node, watch the logs and wait for synchronization:
 journalctl -u massa-node -f -o cat
 ```
 
-Next, you need to [create a wallet](node-setup-guide.md#creating-a-wallet) and [register the node in Discord](node-setup-guide.md#registering-the-node-in-discord).
+Next, you need to [create a wallet](the-node-guide.md#creating-a-wallet) and [register the node in Discord](the-node-guide.md#registering-the-node-in-discord).
 
 ## Creating a wallet
 
@@ -106,7 +106,7 @@ rm -rf $HOME/massa.tar.gz
 systemctl start massa-node
 ```
 
-Then we [re-enable staking](node-setup-guide.md#creating-a-wallet) for an address, buy ROLL, and [register the node in Discord](node-setup-guide.md#registering-the-node-in-discord).
+Then we [re-enable staking](the-node-guide.md#creating-a-wallet) for an address, buy ROLL, and [register the node in Discord](the-node-guide.md#registering-the-node-in-discord).
 
 ## Useful Commands
 
