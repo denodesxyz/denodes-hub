@@ -61,19 +61,19 @@ Depending on the role, users can participate and earn DYM:
 
 ## Backers
 
-Dymension successfully concluded a private funding round, raising a total of [$6.7 million](https://www.theblock.co/post/210093/modular-blockchain-dymension-raises-6-7-million-in-private-token-round). The funding round was overseen by Big Brain Holdings and Stratos, and included participation from notable investors such as Shalom Meckenzie of DraftKings and the on-chain gaming DAO Matchbox, among others.
+Dymension successfully concluded a private funding round, raising a total of [<mark style="color:blue;">$6.7 million</mark>](https://www.theblock.co/post/210093/modular-blockchain-dymension-raises-6-7-million-in-private-token-round). The funding round was overseen by Big Brain Holdings and Stratos, and included participation from notable investors such as Shalom Meckenzie of DraftKings and the on-chain gaming DAO Matchbox, among others.
 
 ## Resources
 
-Here are official resources related to the [Dymension](https://dymension.xyz/) that you might find useful:
+Here are official resources related to the [<mark style="color:blue;">Dymension</mark>](https://dymension.xyz/) that you might find useful:
 
-* [Website](https://dymension.xyz)
-* [Twitter](https://twitter.com/dymension)
-* [Discord](https://discord.gg/dymension)
-* [Blog](https://medium.com/@dymension)
-* [GitHub](https://github.com/dymensionxyz)
-* [Docs](https://docs.dymension.xyz/)
+* [<mark style="color:blue;">Website</mark>](https://dymension.xyz)
+* [<mark style="color:blue;">Twitter</mark>](https://twitter.com/dymension)
+* [<mark style="color:blue;">Discord</mark>](https://discord.gg/dymension)
+* [<mark style="color:blue;">Blog</mark>](https://medium.com/@dymension)
+* [<mark style="color:blue;">GitHub</mark>](https://github.com/dymensionxyz)
+* [<mark style="color:blue;">Docs</mark>](https://docs.dymension.xyz/)
 
 ***
 
-_Powered by_ [_deNodes_](https://twitter.com/deNodes\_)
+_Powered by_ [_<mark style="color:blue;">deNodes</mark>_](https://twitter.com/deNodes\_)
