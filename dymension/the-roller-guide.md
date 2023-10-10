@@ -81,14 +81,17 @@ $request <dym-address>
 
 For Celestia and Avail network tokens you may use the [celestia-faucet](https://discord.com/channels/956961633165529098/1128048548999610451) or [avail-faucet](https://discord.com/channels/956961633165529098/1144240033650458685) respectively:
 
+{% code title="Celestia" %}
 ```
 $request <celestia-address>
 ```
+{% endcode %}
 
+{% code title="Avail" %}
 ```
 /deposit <avail-address>
-
 ```
+{% endcode %}
 
 ### Registering the RollApp
 
@@ -175,6 +178,58 @@ The status of all services should be **active (running)**.
 ### Monitor
 
 ### IBC Transfer
+
+Fund the Dymension Hub faucet from the created RollApp:
+
+```bash
+roller tx fund-faucet
+```
+
+Within 30 minutes tokens will become available via faucet in the Dymension Discord ([#froopyland-faucet channel](https://discord.com/channels/956961633165529098/1143231362468434022)). Run the following command to check the balance of your RollApp token:
+
+```
+$balances dym1g8sf7w4cz5gtupa6y62h3q6a4gjv37pgefnpt5 <rollapp-id>
+```
+
+\<rollapp-id> can always be found with the command:
+
+```bash
+roller config show
+```
+
+Once the tokens appear in the faucet balance, users will be able to request them with the following command in Discord:
+
+```
+$request <user-address> <rollapp-id>
+```
+
+#### Transfer IBC Tokens <a href="#transfer-ibc-tokens" id="transfer-ibc-tokens"></a>
+
+Let's transfer the tokens to the faucet address (for the example) using IBC. First, let's define the source channel of our RollApp:
+
+```
+roller relayer status
+```
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-10-10 at 5.14.52 PM.png" alt=""><figcaption></figcaption></figure>
+
+The source channel, in this case `channel-0`, will be used in the following command and will be referred to as `<src-channel>`.
+
+In the following command, you must substitute your own values for `<src-channel>`and `<base-denom>`. `<destination-address>` replace with faucet address (_dym1g8sf7w4cz5gtupa6y62h3q6a4gjv37pgefnpt5_)
+
+{% code overflow="wrap" %}
+```bash
+rollapp_evm tx ibc-transfer transfer transfer <src-channel> <destination-address> 5000000000000000000000000<base-denom> --from rollapp_sequencer --keyring-backend test --home ~/.roller/rollapp --broadcast-mode block
+```
+{% endcode %}
+
+For example:
+
+{% code overflow="wrap" %}
+```bash
+rollapp_evm tx ibc-transfer transfer transfer channel-0 dym1g8sf7w4cz5gtupa6y62h3q6a4gjv37pgefnpt5 5000000000000000000000000uDEN --from rollapp_sequencer --keyring-backend test --home ~/.roller/rollapp --broadcast-mode block
+```
+{% endcode %}
 
 ### Export keys
 
