@@ -12,110 +12,183 @@ Welcome to our guide on setting up your node and participating in the Dymension 
 
 We recommend the following minimum hardware requirements for running the Avail Node:
 
-* Machine: **8 GB RAM,** **6 Cores, 500 SSD**
-* OS: **Ubuntu Linux 20.04 (LTS)**
+* Machine: **16 GB+ RAM,** **Dual Core, 100 GB+ SSD**
+* Network: **At least 100mbps network bandwidth**
+* OS: **Linux AMD64, Linux ARM64, Mac AMD64, Mac ARM64**
 
-## Setting up a Avail Node
+### Install Roller
 
 1. Run the following command:
 
-```
-wget -O subspace.sh https://github.com/denodesxyz/denodes-hub/raw/hub/scripts/subspace.sh && chmod +x subspace.sh && ./subspace.sh
-```
-
-If the message "Illegal Instruction" appears during installation. It means that the processor is not compatible with this version. You can try adding the "v2" parameter and installing the version for older processors:
-
-```
-wget -O subspace.sh https://github.com/denodesxyz/denodes-hub/raw/hub/scripts/subspace.sh && chmod +x subspace.sh && ./subspace.sh v2
+```bash
+curl -L https://dymensionxyz.github.io/roller/install.sh | bash
 ```
 
-During the installation process, several parameters will be requested, the most important of which are the wallet address, the node name and the volume of the disk allocated for the plot.
+2. Verify Roller version:
 
-2. For the first question, enter `Y`:
-
-<figure><img src="https://github.com/denodesxyz/denodes-hub/assets/139079136/33aa294e-7995-43b8-aa80-12356dfe8adc" alt=""><figcaption></figcaption></figure>
-
-3. Your subspace wallet address:
-
-* Enter the address that can be taken [here](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc-0.gemini-3e.subspace.network%2Fws#/accounts), or
-* Install recommended wallet [Subwallet](https://docs.subspace.network/docs/protocol/wallets/subwallet)&#x20;
-
-<figure><img src="https://github.com/denodesxyz/denodes-hub/assets/139079136/9d4d4602-3bfd-4904-ad67-7bece619fa43" alt=""><figcaption></figcaption></figure>
-
-4. Enter a unique node name:
-
-<figure><img src="https://github.com/denodesxyz/denodes-hub/assets/139079136/9b0706c0-0d3d-4b2a-a785-aff539d3512c" alt=""><figcaption></figcaption></figure>
-
-5. Specify the paths for storing the plot and the node data (you can leave the default values):&#x20;
-
-<figure><img src="https://github.com/denodesxyz/denodes-hub/assets/139079136/dfa79cd4-f47b-41a1-9eb8-b140a9d59ffb" alt=""><figcaption></figcaption></figure>
-
-6. Specify the size of the plot:&#x20;
-
-<figure><img src="https://github.com/denodesxyz/denodes-hub/assets/139079136/0d079655-3772-4982-991d-69ff877ba150" alt=""><figcaption></figcaption></figure>
-
-7. Leave the default value when selecting the chain:&#x20;
-
-<figure><img src="https://github.com/denodesxyz/denodes-hub/assets/139079136/e3245227-2d4d-4a18-a5d3-5a05dee8ca36" alt=""><figcaption></figcaption></figure>
-
-8. Installation successfully completed:
-
-<figure><img src="https://github.com/denodesxyz/denodes-hub/assets/139079136/bc698366-f1cc-4fac-ad52-443cd9403c35" alt=""><figcaption></figcaption></figure>
-
-## Node Monitoring
-
-To view logs, use the following command:
-
-```
-journalctl -f -u subspace-node -o cat
+```bash
+roller version
 ```
 
-In addition to logs, you can find your node in telemetry. Keep in mind that with a large number of farmers, there is a chance that even a successfully working node will not be seen in telemetry immediately.&#x20;
-
-{% embed url="https://telemetry.subspace.network/#list/0xa3cd4b592d93f79943fbc58fc90ca8f516106699c9cf4d7ada98ca22877bc1ae" %}
-
-{% hint style="info" %}
-To search, simply start typing the Node Name. Click on the row with the node to pin it to the top of the list.
-{% endhint %}
-
-<figure><img src="https://github.com/denodesxyz/denodes-hub/assets/139079136/f14ac701-72fd-4834-b5e0-79e43815a683" alt=""><figcaption></figcaption></figure>
-
-## Useful Commands
-
-The list of useful commands includes ways to manage and monitor your subspace node:
-
-* **View the logs**
-
+{% code title="Should output:" %}
 ```
-journalctl -f -u subspace-node -o cat
+💈 Roller version v0.1.16-beta
+💈 Build time: 2023-10-04T13:38:07+0000"
+💈 Git commit: 57994323bdaea039b4ce7449b9f026f0059ba925
+```
+{% endcode %}
+
+### Initialize RollApp
+
+Initializing the configuration files of the RollApp will create the necessary information to start a new RollApp. This will create a folder `~/.roller` in the root directory of your computer with important files such as the `Genesis` file.
+
+```bash
+roller config init --interactive
 ```
 
-* **Restart your node**
+* Select your network → **Froopyland (default)**
+* Select your execution environment → **EVM RollApp (default)**
+* Enter your RollApp ID → The rollapp ID, should contain only alphabetical characters. **Example**: **denodes**
+* Specify your RollApp denom → Name of the native token of the RollApp in English letters. **Example**: **BTC, PEPE, DYM**
+* Set the genesis token supply → Initial token supply in the RollApp **1,000,000,000 (default)**
+* Choose your data layer → **Celestia: Arabica testnet**, **Avail: Dymension dedicated devnet**
+
+### Address funding <a href="#address-funding" id="address-funding"></a>
+
+After initializing the RollApp, addresses to fund should be returned to you:
+
+{% code fullWidth="false" %}
+```
+🔑 Addresses:
+
+Sequencer <network> | Address used to publish state updates to the Dymension Hub
+Relayer   <network> | Address that handles the relaying of IBC packets
+DA        <network> | Address used to publish data on-chain to the DA network
+```
+{% endcode %}
+
+You can get these addresses at any time by executing the command:
 
 ```
-journalctl -f -u subspace-node -o cat
+roller keys list
+```
+
+The first two addresses need to be fund through the [froopyland-faucet](https://discord.com/channels/956961633165529098/1143231362468434022) channel in the Dymension discord:
+
+```
+$request <dym-address>
+```
+
+For Celestia and Avail network tokens you may use the [celestia-faucet](https://discord.com/channels/956961633165529098/1128048548999610451) or [avail-faucet](https://discord.com/channels/956961633165529098/1144240033650458685) respectively:
+
+```
+$request <celestia-address>
 ```
 
 ```
-systemctl restart subspace-node
-```
-
-* **Stop your node**
+/deposit <avail-address>
 
 ```
-systemctl stop subspace-node
+
+### Registering the RollApp
+
+Registering the RollApp adds a namespace in the Dymension Hub to account for the newly initalized RollApp.
+
+Instead of managing a multi-sig smart contract, a developer only needs to register the RollApp with a simple command. Registering the RollApp to the Dymension Hub allows a Sequencer to publish state updates on-chain and furthermore facilitates bridging between ecosystems.
+
+The following command utilizes the addresses generated in the [previous step](https://docs.dymension.xyz/build/quick-start/roller-quick/initialize) :
+
+```bash
+roller tx register
 ```
 
-* **Delete your node**
+Should return:
 
 ```
-sudo systemctl stop subspace-node
-sudo systemctl disable subspace-node
-sudo rm /etc/systemd/system/subspace-node.service
-sudo rm /usr/local/bin/subspace
-rm -rf $HOME/.local/share/subspace*
-rm -rf $HOME/.config/subspace*
+💈 Rollapp '<rollapp-id>' has been successfully registered on the hub.
 ```
+
+### Running the RollApp
+
+There are two ways to run RollApp. In the first case it is enough to execute the command:
+
+```
+roller run
+```
+
+During the `Run` process a RollApp with an IBC connection to the Dymension Hub is started. A status table will appear with information about the RollApp and IBC relayer. Developers should see an output with useful information such as this:
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-10-09 at 4.53.41 PM.png" alt=""><figcaption></figcaption></figure>
+
+If you close the terminal, the process execution will be stopped. Therefore, it is recommended to use the following method. It only works on Linux with systemd.
+
+Creating service files:
+
+```bash
+roller services load
+```
+
+Enable services:
+
+{% code title="Celestia" %}
+```bash
+sudo systemctl enable da-light-client sequencer relayer
+```
+{% endcode %}
+
+{% code title="Avail" %}
+```bash
+sudo systemctl enable sequencer relayer
+```
+{% endcode %}
+
+Start the services:
+
+{% code title="Celestia" %}
+```bash
+sudo systemctl start da-light-client sequencer relayer
+```
+{% endcode %}
+
+{% code title="Avail" %}
+```bash
+sudo systemctl start sequencer relayer
+```
+{% endcode %}
+
+Next, check the status of running services
+
+{% code title="Celestia" %}
+```bash
+sudo systemctl status da-light-client sequencer relayer
+```
+{% endcode %}
+
+{% code title="Avail" %}
+```bash
+sudo systemctl status sequencer relayer
+```
+{% endcode %}
+
+The status of all services should be **active (running)**.
+
+### Monitor
+
+### IBC Transfer
+
+### Export keys
+
+### Portal Listing
+
+
+
+
+
+
+
+
+
+
 
 ***
 
