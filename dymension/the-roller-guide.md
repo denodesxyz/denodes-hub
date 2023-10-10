@@ -10,7 +10,7 @@ Welcome to our guide on setting up your node and participating in the Dymension 
 
 ### Hardware Requirements <a href="#hardware-requirements" id="hardware-requirements"></a>
 
-We recommend the following minimum hardware requirements for running the Avail Node:
+We recommend the following minimum hardware requirements for deploying a RollApp:
 
 * Machine: **16 GB+ RAM,** **Dual Core, 100 GB+ SSD**
 * Network: **At least 100mbps network bandwidth**
