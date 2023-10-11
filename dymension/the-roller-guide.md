@@ -233,9 +233,29 @@ rollapp_evm tx ibc-transfer transfer transfer channel-0 dym1g8sf7w4cz5gtupa6y62h
 
 ### Export keys
 
+Backup the private keys of your account. Run the following command to display the private keys that are associated with the RollApp.
+
+```
+roller keys list
+```
+
+The following keys can currently be exported: `hub_sequencer`, `rollapp_sequencer` and `my_celes_key`
+
+```
+roller keys export my_celes_key
+```
+
+```
+roller keys export hub_sequencer
+```
+
+```
+roller keys export rollapp_sequencer
+```
+
+It is recommended to keep the keys in a secure place.
+
 ### Portal Listing
-
-
 
 
 
