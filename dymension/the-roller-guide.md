@@ -6,14 +6,14 @@ description: 'Dymension: Roller Setup Guide'
 
 <figure><img src="../.gitbook/assets/Sub Roller.png" alt=""><figcaption></figcaption></figure>
 
-Welcome to our guide on setting up your node and participating in the Dymension protocol testnet. Follow these step-by-step instructions to get started.
+Welcome to our guide on setting up your node and participating in the [<mark style="color:blue;">Dymension testnet</mark>](https://medium.com/@dymension/froopyland-is-live-8bf21e9d7046). Follow these step-by-step instructions to get started.
 
 ### Hardware Requirements <a href="#hardware-requirements" id="hardware-requirements"></a>
 
 We recommend the following minimum hardware requirements for deploying a RollApp:
 
 * Machine: **16 GB+ RAM,** **Dual Core, 100 GB+ SSD**
-* Network: **At least 100mbps network bandwidth**
+* Network: **At least 100 mbps network bandwidth**
 * OS: **Linux AMD64, Linux ARM64, Mac AMD64, Mac ARM64**
 
 ### Install Roller
@@ -335,8 +335,8 @@ Then create a thread in the post and send a link to the PR.
 
 <figure><img src="../.gitbook/assets/create-thread.png" alt=""><figcaption></figcaption></figure>
 
-You just have to wait for a moderator to check the PR and list it on the portal. After that, you should send a tweet about the listing with the required @Dymension tag and a link to RollApp on the portal. The link to the tweet will need to be sent to this same thread.
+You just have to wait for a moderator to check the PR and list it on the portal. After that, you should send a tweet about the listing with the required `@Dymension` tag and a link to RollApp on the portal. The link to the tweet will need to be sent to this same thread.
 
 ***
 
-_Powered by_ [_deNodes_](https://twitter.com/deNodes\_)
+_Powered by_ [_<mark style="color:blue;">deNodes</mark>_](https://twitter.com/deNodes\_)

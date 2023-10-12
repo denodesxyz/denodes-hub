@@ -6,7 +6,7 @@ description: 'deNodes Hub: Dymension'
 
 <figure><img src="../.gitbook/assets/Dymension.png" alt=""><figcaption></figcaption></figure>
 
-[<mark style="color:blue;">Dymension</mark>](https://dymension.xyz/) is a network comprised of modular blockchains known as RollApps.
+[<mark style="color:blue;">Dymension</mark>](https://dymension.xyz/) is a network comprised of modular blockchains known as RollApps. These RollApps demonstrate modularity in both data posting and execution.&#x20;
 
 ### Table of Contents
 

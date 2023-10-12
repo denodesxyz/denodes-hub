@@ -21,4 +21,4 @@ We recommend the following minimum hardware requirements for running the Dymensi
 
 ***
 
-_Powered by_ [_deNodes_](https://twitter.com/deNodes\_)
+_Powered by_ [_<mark style="color:blue;">deNodes</mark>_](https://twitter.com/deNodes\_)
