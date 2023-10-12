@@ -175,8 +175,6 @@ sudo systemctl status sequencer relayer
 
 The status of all services should be **active (running)**.
 
-### Monitor
-
 ### IBC Transfer
 
 Fund the Dymension Hub faucet from the created RollApp:
@@ -256,6 +254,28 @@ roller keys export rollapp_sequencer
 It is recommended to keep the keys in a secure place.
 
 ### Portal Listing
+
+Listing on the [Dymension Portal](https://portal.dymension.xyz/) will allow users to discover and interact with the RollApp.&#x20;
+
+First, you need to make sure the Dymension Hub faucet is funded with tokens from the created RollApp. Earlier we did this in the [IBC transfer](the-roller-guide.md#ibc-transfer) step. Next, you need to create a PR in the Dymension GitHub with the RollApp configuration so that the project team can list it on the portal. To do this, follow the steps below.
+
+1. Fork the RollApp-registry [repo](https://github.com/dymensionxyz/rollapp-registry) into your GitHub account:
+
+<figure><img src="../.gitbook/assets/dymension-fork.png" alt=""><figcaption></figcaption></figure>
+
+2. Clone it:
+
+
+
+```
+git clone https://github.com/<your-github-username>/rollapp-registry
+```
+
+3. Create the RollApp directory and prepare config information and logo:
+
+
+
+
 
 
 
