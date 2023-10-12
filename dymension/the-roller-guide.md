@@ -265,25 +265,77 @@ First, you need to make sure the Dymension Hub faucet is funded with tokens from
 
 2. Clone it:
 
+<figure><img src="../.gitbook/assets/dymension-clone.png" alt=""><figcaption></figcaption></figure>
 
-
-```
+```bash
 git clone https://github.com/<your-github-username>/rollapp-registry
 ```
 
 3. Create the RollApp directory and prepare config information and logo:
 
+```bash
+cd rollapp-registry
+```
 
+<pre class="language-bash"><code class="lang-bash"><strong>export ROLLAPP_ID=$(roller config show | grep RollappID | grep -o '".*"' | sed 's/"//g')
+</strong></code></pre>
 
+{% code overflow="wrap" %}
+```bash
+mkdir -p $ROLLAPP_ID/logos && cd $ROLLAPP_ID && touch $ROLLAPP_ID.json
+```
+{% endcode %}
 
+Next, place the logo in SVG, PNG, or JPG format in the `logos` directory. The size should not exceed 50 KB.
 
+Then export the RollApp configuration to the `<RollApp-ID>.json` file:
 
+```
+roller config export 2>&1 | tail -n +2 > $ROLLAPP_ID.json && cat $ROLLAPP_ID.json
+```
 
+<figure><img src="../.gitbook/assets/roller_config_export.png" alt=""><figcaption></figcaption></figure>
 
+In the `<RollApp-ID>.json` file, change the following fields:
 
+* `rpc` "http://\<your-public-ip-or-domain>:port" (default port 26657)
+* `rest` "http://\<your-public-ip-or-domain>:port" (default port 1317)
+* `rpc` in the `evm` section: "http://\<your-public-ip-or-domain>:port" (default port 8545)
+* `logo` Correct the file extension
 
+Optional:
 
+* `chainName` The RollApp name as it will appear on the Portal
+* `description` Description to be displayed on the portal
+* `website` Website URL
 
+Then commit your changes:
+
+{% code lineNumbers="true" %}
+```bash
+git add .
+git commit -m "added RollApp"
+git push -u origin main
+```
+{% endcode %}
+
+And create pull request:
+
+<figure><img src="../.gitbook/assets/dymension-contribute.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/dymension-PR.png" alt=""><figcaption></figcaption></figure>
+
+Next pair the RollApp on the [Discord channel](https://discord.com/channels/956961633165529098/1140590139022782474) by entering the following command:
+
+```
+$pair <RollApp-ID>
+```
+
+Then create a thread in the post and send a link to the PR.
+
+<figure><img src="../.gitbook/assets/create-thread.png" alt=""><figcaption></figcaption></figure>
+
+You just have to wait for a moderator to check the PR and list it on the portal. After that, you should send a tweet about the listing with the required @Dymension tag and a link to RollApp on the portal. The link to the tweet will need to be sent to this same thread.
 
 ***
 
