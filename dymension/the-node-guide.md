@@ -145,7 +145,7 @@ sed -i -e "s/^indexer *=.*/indexer = \"null\"/" $HOME/.dymension/config/config.t
 ```bash
 tee /etc/systemd/system/dymd.service > /dev/null <<EOF
 [Unit]
-Description=dymd
+Description=Dymension Node
 After=network-online.target
 
 [Service]
