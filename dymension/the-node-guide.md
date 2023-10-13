@@ -201,12 +201,8 @@ dymd tx staking create-validator \
     --min-self-delegation="1" \
     --identity="" \
     --website="" \
-    --details="" \
+    --details=""
 ```
-
-
-
-
 
 ***
 
