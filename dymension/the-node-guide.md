@@ -68,7 +68,7 @@ version: v1.0.2-beta
 echo 'export DYMENSION_CHAIN_ID='$DYMENSION_CHAIN_ID >> $HOME/.bash_profile
 source $HOME/.bash_profile
 dymd init $DYMENSION_MONIKER --chain-id $DYMENSION_CHAIN_ID
-dymd config chain-id DYMENSION_CHAIN_ID
+dymd config chain-id $DYMENSION_CHAIN_ID
 dymd config keyring-backend test
 </code></pre>
 
