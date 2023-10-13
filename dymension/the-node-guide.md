@@ -12,7 +12,8 @@ Welcome to our guide on setting up your node and participating in the Dymension 
 
 We recommend the following minimum hardware requirements for running the Dymension Node:
 
-* Machine: **16 GB RAM,** **Dual Core, 500 SSD, 100mbps network bandwidth**
+* Machine: **16 GB RAM,** **Dual Core, 500 SSD**
+* Network: **100mbps network bandwidth**
 * OS: **Ubuntu Linux 20.04 (LTS)**
 
 ## Setting up a Dymension Node
@@ -36,7 +37,7 @@ apt install curl jq wget build-essential
 ```
 {% endcode %}
 
-### Build Dymension
+### Build
 
 {% code lineNumbers="true" %}
 ```bash
