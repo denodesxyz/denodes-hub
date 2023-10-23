@@ -63,9 +63,9 @@ sudo systemctl start lightning
 
 <figure><img src="../.gitbook/assets/Fleek_service_started.png" alt=""><figcaption></figcaption></figure>
 
-## Staking
+## Staking tFLK
 
-Test tokens need to be staked for the node to work. The first thing to do is to add the Fleek Network to Metamask.
+Test tokens need to be staked for the node to work. The first thing to do is to add the `Fleek Network` to Metamask.
 
 ![](../.gitbook/assets/Fleek\_mm\_network1.png)![](../.gitbook/assets/Fleek\_mm\_network2.png)
 
@@ -74,7 +74,7 @@ Test tokens need to be staked for the node to work. The first thing to do is to 
 * Chain ID: `59330`
 * Currency symbol: `tFLK`
 
-<figure><img src="../.gitbook/assets/Fleek_mm_network3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Fleek_mm_network3.png" alt="" width="375"><figcaption></figcaption></figure>
 
 After that, save and switch to Fleek Network. Then visit the [Faucet website](https://faucet.testnet.fleek.network/). You need to connect your wallet on the site. Once `Connect Wallet` is ready, proceed to `Mint tFLK` and wait until the balance of the account in your Metamask increases. You need to have `tFLK` before proceeding.&#x20;
 
@@ -184,4 +184,4 @@ systemctl status lightning
 
 ***
 
-_Powered by_ [_deNodes_](https://twitter.com/deNodes\_)
+_Powered by_ [_<mark style="color:blue;">deNodes</mark>_](https://twitter.com/\_denodes)
