@@ -199,6 +199,7 @@ dymd tx staking create-validator \
     --commission-max-rate="0.20" \
     --commission-max-change-rate="0.01" \
     --min-self-delegation="1" \
+    --fees 50000udym \
     --identity="" \
     --website="" \
     --details=""

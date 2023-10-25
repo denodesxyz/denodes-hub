@@ -280,11 +280,8 @@ cd rollapp-registry
 <pre class="language-bash"><code class="lang-bash"><strong>export ROLLAPP_ID=$(roller config show | grep RollappID | grep -o '".*"' | sed 's/"//g')
 </strong></code></pre>
 
-{% code overflow="wrap" %}
-```bash
-mkdir -p $ROLLAPP_ID/logos && cd $ROLLAPP_ID && touch $ROLLAPP_ID.json
-```
-{% endcode %}
+<pre class="language-bash" data-overflow="wrap"><code class="lang-bash"><strong>mkdir -p $ROLLAPP_ID/logos &#x26;&#x26; cd $ROLLAPP_ID &#x26;&#x26; touch $ROLLAPP_ID.json
+</strong></code></pre>
 
 Next, place the logo in SVG, PNG, or JPG format in the `logos` directory. The size should not exceed 50 KB.
 
