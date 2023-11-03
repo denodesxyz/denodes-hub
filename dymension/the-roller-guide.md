@@ -334,6 +334,48 @@ Then create a thread in the post and send a link to the PR.
 
 You just have to wait for a moderator to check the PR and list it on the portal. After that, you should send a tweet about the listing with the required `@Dymension` tag and a link to RollApp on the portal. The link to the tweet will need to be sent to this same thread.
 
+### Upgrade
+
+Install the most recent version of Roller:
+
+```bash
+curl -L https://dymensionxyz.github.io/roller/install.sh | bash
+```
+
+Stop the Roller services:
+
+{% code title="Celestia" %}
+```bash
+sudo systemctl stop relayer sequencer da-light-client
+```
+{% endcode %}
+
+{% code title="Avail" %}
+```bash
+sudo systemctl stop relayer sequencer
+```
+{% endcode %}
+
+Execute the `migrate` command:
+
+```bash
+roller migrate
+```
+
+Start the Roller services:
+
+{% code title="Celestia" %}
+```bash
+sudo systemctl start da-light-client sequencer relayer
+```
+{% endcode %}
+
+{% code title="Avail" %}
+```bash
+sudo systemctl stop sequencer relayer
+```
+{% endcode %}
+
 ***
 
 _Powered by_ [_<mark style="color:blue;">deNodes</mark>_](https://twitter.com/deNodes\_)
