@@ -6,7 +6,7 @@ description: 'Namada: Overview'
 
 <figure><img src="../.gitbook/assets/Twitter header - 8.png" alt=""><figcaption></figcaption></figure>
 
-Welcome to this research, where you will find detailed information about the [Namada](https://namada.net/) architecture, team, and backers, resources, and testnet. In the following sections, we will explore each of these aspects in more detail, providing you with a comprehensive understanding of the project.
+Welcome to this research, where you will find detailed information about the [Namada](https://namada.net/) architecture, team, and backers, resources, and testnet. In the following sections, we will explore each of these aspects in more detail, providing you with a comprehensive understanding of the Namada network.
 
 ## Introduction
 
@@ -20,7 +20,7 @@ The[ <mark style="color:blue;">Namada</mark>](https://twitter.com/namada) protoc
 
 ## What is Namada?
 
-Namada Network is designed to provide a secure and private way to make shielded transfers with any kind of asset, whether fungible or non-fungible, across different chains and platforms. The network achieves decentralization by using a Proof-of-Stake (PoS) consensus algorithm. This algorithm motivates validators to act honestly by implementing a system of rewards and penalties.
+[<mark style="color:blue;">Namada Network</mark>](https://x.com/namada) is designed to provide a secure and private way to make shielded transfers with any kind of asset, whether fungible or non-fungible, across different chains and platforms. The network achieves decentralization by using a Proof-of-Stake consensus algorithm. This algorithm motivates validators to act honestly by implementing a system of rewards and penalties.
 
 In addition to its privacy-focused approach, Namada Network is also focused on scalability. The network achieves this through the use of innovative techniques such as sharding and off-chain computation, which enable it to handle high volumes of transactions without sacrificing security or decentralization.
 

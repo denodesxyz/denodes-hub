@@ -6,6 +6,8 @@ description: 'Namada: Most Frequently Asked Questions'
 
 <figure><img src="../.gitbook/assets/Twitter header - 10.png" alt=""><figcaption></figcaption></figure>
 
+## **General**
+
 ### **What is the Namada network?**
 
 The Namada network is a decentralized blockchain project that aims to provide asset-agnostic, interchain privacy through its Proof-of-Stake (PoS) layer 1 protocol. It focuses on ensuring privacy, scalability, and decentralization in blockchain transactions.
@@ -17,6 +19,8 @@ The network uses a privacy-focused approach and utilizes zero-knowledge proofs, 
 ### **Who is behind the Namada Network?**
 
 The Namada Network is supported by a team experienced in both web3 and web2 startups. To learn more about the Namada team, please visit their [website](https://heliax.dev/team).
+
+## **Community**
 
 ### **How can I get involved with the Namada community?**
 
