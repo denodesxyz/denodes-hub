@@ -11,5 +11,6 @@ description: 'deNodes Hub: Namada'
 ### Table of Contents
 
 * [<mark style="color:blue;">Project Overview</mark>](overview.md)
-* [<mark style="color:blue;">Node Setup Guide</mark>](the-node-guide.md)
+* [<mark style="color:blue;">Node Setup Guide</mark>](the-node-guide/)
+  * [<mark style="color:blue;">Node Setup Guide (Russian)</mark>](https://app.gitbook.com/o/JBk0WpDfzxyTHmhkug8q/s/Msyjj5Lo4bjoYYwbDcVb/\~/changes/60/namada/the-node-guide/gaid-po-ustanovke-nody-namada)
 * [<mark style="color:blue;">FAQ: Most Frequently Asked Questions</mark>](faq.md)

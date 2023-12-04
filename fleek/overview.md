@@ -10,15 +10,15 @@ Welcome to this research, where you will find detailed information about the Fle
 
 ## What is Fleek
 
-
+* _Under development_
 
 ## Resources
 
-* [Website](https://subspace.network/)
-* [Twitter](https://twitter.com/NetworkSubspace)
-* [Discord](https://discord.com/invite/subspace-network)
-* [Blog](https://blog.subspace.network/)
-* [GitHub](https://github.com/subspace)
+* [<mark style="color:blue;">Website</mark>](https://fleek.network/)
+* [<mark style="color:blue;">Twitter</mark>](https://twitter.com/fleek\_net)&#x20;
+* [<mark style="color:blue;">Discord</mark>](https://discord.com/invite/fleek)
+* [Blog](https://blog.fleek.network/)
+* [<mark style="color:blue;">Docs</mark>](https://docs.fleek.network/docs/)
 
 ***
 

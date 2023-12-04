@@ -2,11 +2,11 @@
 description: 'Fleek Network: Node Setup Guide'
 ---
 
-# Node Setup Guide
+# Node Setup Guide (Outdated)
 
 <figure><img src="../.gitbook/assets/Fleek Guide.png" alt=""><figcaption></figcaption></figure>
 
-Welcome to our guide on setting up your node and participating in the Fleek testnet. Follow these step-by-step instructions to get started.
+Welcome to our guide on setting up your node and participating in the [<mark style="color:blue;">Fleek testnet</mark>](https://docs.fleek.network/docs/node/testnet-onboarding/). Follow these step-by-step instructions to get started.
 
 ### Hardware Requirements <a href="#hardware-requirements" id="hardware-requirements"></a>
 
@@ -17,7 +17,7 @@ We recommend the following minimum hardware requirements for running the Fleek N
 
 ## Setting up a Fleek Node
 
-### Update system and install requirements
+Update system and install requirements:
 
 ```bash
 apt update && apt upgrade -y
@@ -120,7 +120,9 @@ Now, if everything was successful, the following line will be added to the outpu
 The Node staked amount is 1000 FLK
 ```
 
-## Health check
+### Health check
+
+Run the following command:
 
 ```bash
 curl -sS https://get.fleek.network/healthcheck | bash
@@ -138,7 +140,7 @@ If successful, you should get the response `running and staked` or `running` if 
 
 If you get an error, then it means that your node is not healthy.
 
-## Logs
+### Checking Logs
 
 Standard out and standard error are two data streams created when we launch the Lightning process, on Lightning process activity we redirect the data streams to files as follows:
 
@@ -160,7 +162,7 @@ Or, watch the standard error (stderr) for node diagnostics by running the comman
 tail -f /var/log/lightning/diagnostic.log
 ```
 
-### Useful commands:
+## Useful commands
 
 The list of useful commands includes ways to manage your Fleek node:
 

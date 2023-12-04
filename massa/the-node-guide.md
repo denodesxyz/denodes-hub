@@ -2,7 +2,7 @@
 description: 'Massa: Node Setup Guide'
 ---
 
-# Node Setup Guide
+# Node Setup Guide (Outdated)
 
 <figure><img src="../.gitbook/assets/Massa Guide.png" alt=""><figcaption></figcaption></figure>
 
@@ -106,7 +106,7 @@ rm -rf $HOME/massa.tar.gz
 systemctl start massa-node
 ```
 
-Then we [re-enable staking](the-node-guide.md#creating-a-wallet) for an address, buy ROLL, and [register the node in Discord](the-node-guide.md#registering-the-node-in-discord).
+Then we [re-enable staking](the-node-guide.md#creating-a-wallet) for an address, buy `ROLL`, and [register the node in Discord](the-node-guide.md#registering-the-node-in-discord).
 
 ## Useful Commands
 
@@ -135,4 +135,4 @@ rm -rf $HOME/massa
 
 ***
 
-_**Powered by**_ [_**deNodes**_](https://twitter.com/deNodes\_)
+_Powered by_ [_<mark style="color:blue;">deNodes</mark>_](https://twitter.com/deNodes\_)

@@ -6,13 +6,13 @@ description: 'Namada: Overview'
 
 <figure><img src="../.gitbook/assets/Twitter header - 8.png" alt=""><figcaption></figcaption></figure>
 
-Welcome to this research, where you will find detailed information about the Namada architecture, team, and backers, resources, and testnet. In the following sections, we will explore each of these aspects in more detail, providing you with a comprehensive understanding of the project.
+Welcome to this research, where you will find detailed information about the [Namada](https://namada.net/) architecture, team, and backers, resources, and testnet. In the following sections, we will explore each of these aspects in more detail, providing you with a comprehensive understanding of the project.
 
 ## Introduction
 
-[Namada](https://namada.net/) is a decentralized blockchain project that aims to provide asset-agnostic, interchain privacy through its Proof-of-Stake (PoS) layer 1 protocol. The project focuses on ensuring privacy, scalability, and decentralization in blockchain transactions.
+[<mark style="color:blue;">Namada</mark>](https://namada.net/) is a decentralized blockchain project that aims to provide asset-agnostic, interchain privacy through its Proof-of-Stake (PoS) layer 1 protocol. The project focuses on ensuring privacy, scalability, and decentralization in blockchain transactions.
 
-The[ Namada](https://twitter.com/namada) protocol stands out from other blockchain projects due to several unique features. These include:
+The[ <mark style="color:blue;">Namada</mark>](https://twitter.com/namada) protocol stands out from other blockchain projects due to several unique features. These include:
 
 * Asset-agnostic privacy for all types of transactions makes it an ideal solution for a wide range of use cases.
 * Interoperability across multiple blockchains, enabling seamless transfers of assets across different platforms.
@@ -40,11 +40,11 @@ One of Namada's significant contributions is the concept of shared privacy. Thro
 
 ## Backers & Team
 
-The [Anoma Foundation](https://anoma.foundation/), coordinating the development of [Anoma](http://anoma.net/) and [Namada](https://namada.net/), successfully raised over $57 million in three fundraising rounds.
+The [<mark style="color:blue;">Anoma Foundation</mark>](https://anoma.foundation/), coordinating the development of [<mark style="color:blue;">Anoma</mark>](http://anoma.net/) and [<mark style="color:blue;">Namada</mark>](https://namada.net/), successfully raised over $57 million in three fundraising rounds.
 
 This substantial financial support came from a diverse group of investors, including Delphi Digital, Dialectic, KR1, Spartan, NGC, MH Ventures, Bixin Ventures, No Limit, WAGMI, Plassa, Perridon Ventures, Anagram, Factor, and over 30 angels.
 
-The latest round of fundraising was co-led by returning fund CMCC Global and Electric Capital, which has supported Anoma in all previous rounds.
+The latest round of fundraising was co-led by returning fund CMCC Global and Electric Capital, which has supported [<mark style="color:blue;">Anoma</mark>](http://anoma.net/) in all previous rounds.
 
 {% embed url="https://anoma.foundation/press/the-anoma-foundation-announces-the-3rd-fundraise-for-anoma" %}
 
@@ -53,9 +53,7 @@ The latest round of fundraising was co-led by returning fund CMCC Global and Ele
 * [<mark style="color:blue;">Website</mark>](https://namada.net/)
 * [<mark style="color:blue;">Twitter</mark>](https://twitter.com/namada)
 * [<mark style="color:blue;">Discord</mark>](https://discord.com/invite/namada)
-* [<mark style="color:blue;">Telegram</mark>](https://t.me/namadaprotocol)
 * [<mark style="color:blue;">Github</mark>](https://github.com/anoma/namada)
-* [<mark style="color:blue;">Specifications</mark>](https://specs.namada.net/introduction.html)
 * [<mark style="color:blue;">Documantation</mark>](https://docs.namada.net/)
 
 ***
