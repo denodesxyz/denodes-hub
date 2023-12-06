@@ -147,19 +147,31 @@ namada client bond \
 namada client bonds --owner $NAMADA_ALIAS
 ```
 
+&#x20;Текущую эпоху можно получить следующей командой:
+
+```bash
+namada client epoch
+```
+
 ### Полезные команды&#x20;
 
 Список полезных команд включает способы управления и мониторинга ноды Namada:&#x20;
 
+* **Получить список всех валидаторов и сумму застейканых (самостоятельно и делегированных) токенов**
+
+```bash
+namada client bonded-stake
+```
+
 * **Просмотр логов**
 
-```
+```bash
 journalctl -fu namada -o cat
 ```
 
 * **Удалить ноду**
 
-```
+```bash
 sudo systemctl stop namadad
 sudo systemctl disable namadad
 sudo rm -rf /etc/systemd/system/namadad.service
