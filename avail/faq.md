@@ -29,3 +29,9 @@ You can get involved by following and engaging with the community on the [<mark 
 ### **When is the Avail mainnet expected to launch?**
 
 The Avail mainnet is planned for launch in Q1 of 2024. However, an exact date has not been set yet. Please, refer to the [<mark style="color:blue;">Avail roadmap</mark>](https://www.availproject.org/aboutus#roadmap) for more details.
+
+### Can I currently participate in the Incentivized Testnet?
+
+Yes, you can join the [<mark style="color:blue;">Clash of Nodes</mark>](https://clash.availproject.org/), an Avail's incentivized testnet.[ <mark style="color:blue;">Validators</mark>](https://docs.availproject.org/category/become-a-validator/) and [<mark style="color:blue;">Light Client</mark>](https://docs.availproject.org/operate/node/light-client/) operators, and others can help validate the network, earn points, and compete for rewards.&#x20;
+
+The Avail team onboard new users based on internal selection and team needs, as the testnet is closed.
