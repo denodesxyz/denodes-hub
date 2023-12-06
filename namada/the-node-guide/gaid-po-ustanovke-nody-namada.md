@@ -154,13 +154,18 @@ namada client bonds --owner $NAMADA_ALIAS
 * **Просмотр логов**
 
 ```
-// 
+journalctl -fu namada -o cat
 ```
 
 * **Удалить ноду**
 
 ```
-// 
+sudo systemctl stop namadad
+sudo systemctl disable namadad
+sudo rm -rf /etc/systemd/system/namadad.service
+sudo systemctl daemon-reload
+sudo rm /usr/local/bin/namada*
+sudo rm -rf $HOME/.local/share/namada
 ```
 
 ***
