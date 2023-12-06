@@ -17,34 +17,7 @@ We recommend the following minimum hardware requirements for running the Shardeu
 
 ## Setting up a Shardeum Node
 
-1. Run the following command:
-
-```
-```
-
-## Useful Commands
-
-The list of useful commands includes ways to manage and monitor your subspace node:
-
-* **View the logs**
-
-```
-```
-
-* **Restart your node**
-
-```
-```
-
-* **Stop your node**
-
-```
-```
-
-* **Delete your node**
-
-```
-```
+* _Under maintenance_ :gear:
 
 ***
 
