@@ -5,7 +5,7 @@
 * [⚪ Namada](namada/README.md)
   * [Project Overview](namada/overview.md)
   * [Node Setup Guide](namada/the-node-guide/README.md)
-    * [Гайд по Установке Ноды Namada](namada/the-node-guide/gaid-po-ustanovke-nody-namada.md)
+    * [Гайд по Установке Ноды Namada](namada/the-node-guide/russian.md)
   * [FAQ: Most Frequently Asked Questions](namada/faq.md)
 * [⚪ Dymension](dymension/README.md)
   * [Project Overview](dymension/overview.md)

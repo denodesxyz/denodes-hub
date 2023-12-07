@@ -10,7 +10,7 @@ Welcome to our guide on setting up your node and participating in the [<mark sty
 
 The guide on how to run a [<mark style="color:blue;">Namada node</mark>](./) is also available in other languages, such as:
 
-* [<mark style="color:blue;">Russian</mark>](gaid-po-ustanovke-nody-namada.md)
+* [<mark style="color:blue;">Russian</mark>](russian.md)
 
 ***
 
