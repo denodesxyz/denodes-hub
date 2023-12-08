@@ -135,4 +135,4 @@ rm -rf $HOME/massa
 
 ***
 
-_Powered by_ [_<mark style="color:blue;">deNodes</mark>_](https://twitter.com/deNodes\_)
+_Powered by_ [_<mark style="color:blue;">deNodes</mark>_](https://twitter.com/\_denodes)

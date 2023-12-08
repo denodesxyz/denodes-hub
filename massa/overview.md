@@ -55,4 +55,4 @@ Here are official resources related to the [Massa network](https://massa.net/) t
 
 ***
 
-_Powered by_ [_deNodes_](https://twitter.com/deNodes\_)
+_Powered by_ [_<mark style="color:blue;">deNodes</mark>_](https://twitter.com/\_denodes)

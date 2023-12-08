@@ -21,4 +21,4 @@ We recommend the following minimum hardware requirements for running the Avail N
 
 ***
 
-_Powered by_ [_<mark style="color:blue;">deNodes</mark>_](https://twitter.com/deNodes\_)
+_Powered by_ [_<mark style="color:blue;">deNodes</mark>_](https://twitter.com/\_denodes)

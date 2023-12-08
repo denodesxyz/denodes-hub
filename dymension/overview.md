@@ -76,4 +76,4 @@ Here are official resources related to the [<mark style="color:blue;">Dymension<
 
 ***
 
-_Powered by_ [_<mark style="color:blue;">deNodes</mark>_](https://twitter.com/deNodes\_)
+_Powered by_ [_<mark style="color:blue;">deNodes</mark>_](https://twitter.com/\_denodes)
